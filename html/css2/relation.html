@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*adjacent sibling selector
+         h2 + div {
+        background-color: brown;
+    }*/
+
+
+
+    /*general sibling selector
+    h2 ~ div{
+        background-color: cadetblue;
+    }*/
+
+
+
+    /*child combinator
+    body > h2{
+        background-color: yellow;
+    }*/
+
+
+
+    /*body > div,body>h2{
+        background-color: violet;
+    }*/
+
+    
+
+    /* descendent */
+    body div{
+        background-color: wheat;
+    }
+    </style>
+   
+</head>
+<body>
+    <div>apple</div>
+    <section>
+        <div>green apple</div>
+    </section>
+    <h2>banana</h2>
+    <h2>cat</h2>
+    <div>dog</div>
+    <h2>egg</h2>
+</body>
+</html>
